@@ -36,7 +36,7 @@ This project is a web-based battery monitor and automatic shutdown tool for Linu
 
 1. **Start the server:**
    ```bash
-   sudo python3 app.py
+   python3 app.py
    ```
    > **Note:** `sudo` is required for shutdown commands.
 
