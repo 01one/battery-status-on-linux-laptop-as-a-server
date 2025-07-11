@@ -57,6 +57,8 @@ This project is a web-based battery monitor and automatic shutdown tool for Linu
 - The app requires `sudo` privileges to execute shutdown commands. Consider configuring `sudoers` to allow passwordless shutdown for the user running this script.
 - For remote access, you can optionally set up a Cloudflare Tunnel and configure a custom domain. You may also use Nginx as a reverse proxy for added security and flexibility.
 
+- Setup as a service for automatic startup on system startup https://github.com/01one/toolbox/blob/main/setup_systemd_service.md
+
 ## License
 
 MIT License
